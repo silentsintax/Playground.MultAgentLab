@@ -216,3 +216,38 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+ 
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+ 
+# Packaging
+*.egg-info/
+dist/
+build/
+ 
+# Secrets / local config — never commit real API keys
+.env
+.env.*
+!*.env.example
+ 
+# Tooling / IDE
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.vscode/
+.idea/
+ 
+# OS cruft
+.DS_Store
+Thumbs.db
+

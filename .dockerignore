@@ -1,0 +1,35 @@
+.venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+ 
+# Secrets — never let these into the build context
+.env
+.env.*
+!*.env.example
+ 
+# VCS / IDE / docs
+.git/
+.vscode/
+.idea/
+README.md
+
+
+bin/
+obj/
+**/bin/
+**/obj/
+ 
+# Secrets — never let these into the build context
+.env
+.env.*
+!*.env.example
+ 
+# VCS / IDE / docs
+.git/
+.vs/
+.vscode/
+.idea/
+README.md
+ 
+ 

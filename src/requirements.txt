@@ -1,0 +1,2 @@
+mcp>=1.0          # Model Context Protocol SDK (FastMCP server + stdio client)
+anthropic>=0.40   # only needed when ANTHROPIC_API_KEY is set (real generative AI)
